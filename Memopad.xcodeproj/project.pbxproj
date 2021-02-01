@@ -13,6 +13,7 @@
 		8A38FD7925C83CF500DB705B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A38FD7725C83CF500DB705B /* Main.storyboard */; };
 		8A38FD7B25C83CF700DB705B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A38FD7A25C83CF700DB705B /* Assets.xcassets */; };
 		8A38FD7E25C83CF700DB705B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A38FD7C25C83CF700DB705B /* LaunchScreen.storyboard */; };
+		8A38FD8725C83D6400DB705B /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38FD8625C83D6400DB705B /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8A38FD7A25C83CF700DB705B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A38FD7D25C83CF700DB705B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A38FD7F25C83CF700DB705B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A38FD8625C83D6400DB705B /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8A38FD7A25C83CF700DB705B /* Assets.xcassets */,
 				8A38FD7C25C83CF700DB705B /* LaunchScreen.storyboard */,
 				8A38FD7F25C83CF700DB705B /* Info.plist */,
+				8A38FD8625C83D6400DB705B /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A38FD8725C83D6400DB705B /* MemoViewController.swift in Sources */,
 				8A38FD7625C83CF500DB705B /* ViewController.swift in Sources */,
 				8A38FD7225C83CF500DB705B /* AppDelegate.swift in Sources */,
 				8A38FD7425C83CF500DB705B /* SceneDelegate.swift in Sources */,
